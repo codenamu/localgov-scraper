@@ -1,0 +1,26 @@
+{
+  "name": "localdebt-scraper",
+  "version": "0.0.1",
+  "description": "code for scraping korean local debt data",
+  "main": "scraper.js",
+  "dependencies": {
+    "express": "^4.12.3",
+    "mongodb": "^2.0.25",
+    "node-scrape": "^0.1.5",
+    "serve-static": "^1.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node scraper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thechunsik/localdebt-scraper"
+  },
+  "author": "Hoony, Jang (thechunsik@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thechunsik/localdebt-scraper/issues"
+  },
+  "homepage": "https://github.com/thechunsik/localdebt-scraper"
+}
